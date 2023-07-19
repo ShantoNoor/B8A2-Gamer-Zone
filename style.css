@@ -38,8 +38,6 @@
 .subtitle {
     font-weight: 400;
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
 }
 
 /* cascade */
@@ -176,6 +174,11 @@ body {
     padding-bottom: 7.5rem;
 }
 
+.online-games-subtitle {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
 .img-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -215,4 +218,77 @@ body {
 
 .play-games-subtitle {
     text-align: left;
+    margin-top: 1.5rem;
+    line-height: 30px
+}
+
+/* profile-buttons */
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7.5rem;
+}
+
+.buttons-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.buttons-item:hover {
+    border: 2px solid var(--color-dark-1);
+    border-radius: 50px;
+}
+
+/* footer */
+.white {
+    color: white;
+}
+
+.footer {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: var(--color-dark-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-navs {
+    display: flex;
+    gap:60px;
+}
+
+.foot-nav {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin: 66px 0;
+}
+
+.foot-icons {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.foot-more {
+    display: flex;
+    gap:60px;
+}
+
+.foot-end {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
