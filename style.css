@@ -93,6 +93,21 @@ body {
     color: var(--color-dark-2);
     font-weight: 500;
     font-size: 1.125rem;
+    transition: .3s all;
+}
+
+.nav-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #F948B2;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav-link:active {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-group {
@@ -109,8 +124,22 @@ body {
     margin-right: 1.5rem;
 }
 
+.nav-group-icon {
+    transition: all .3s;
+}
+
 .nav-group-icon:not(:last-child) {
     margin-right: 1rem;
+}
+
+.nav-group-icon:hover {
+    transform: rotate(20deg);
+    transition: center center;
+}
+
+.nav-group-icon:active {
+    transform: rotate(40deg);
+    transition: center center;
 }
 
 /* banner */
@@ -169,6 +198,7 @@ body {
     color: white;
     font-size: 1.25rem;
     font-weight: 600;
+    transition: all .3s;
 }
 
 .banner-btn-1 {
@@ -177,6 +207,16 @@ body {
 
 .banner-btn-2 {
     background-color: #4EC5F7;
+}
+
+.banner-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.banner-btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* online games */
@@ -349,12 +389,38 @@ body {
     color: #fff;
     font-weight: 600;
     font-size: 1.125rem;
+    transition: all .3s;
+    padding: 5px;
+}
+
+.foot-nav:hover {
+    transform: skewX(15deg);
+    background-color: #F948B2;
+    color: #FFF;    
+}
+
+.foot-nav:active {
+    transform: skewX(7.5deg);
 }
 
 .foot-icons {
     display: flex;
     gap: 2.5rem;
     margin-bottom: 1.25rem;
+}
+
+.foot-icon {
+    transition: all .3s;
+}
+
+.foot-icon:hover {
+    transform: scale(2);
+    transition: center center;
+}
+
+.foot-icon:active {
+    transform: scale(1.5);
+    transition: center center;
 }
 
 .foot-more {
