@@ -390,6 +390,21 @@ body {
     }
 
     .banner-info {
-        padding: 38px 0px 32px;
+        padding: 32px 0px 24px;
+    }
+
+    /* online games */
+    .online-games {
+        margin: 20px;
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    .img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .img-item {
+        margin-top: 2.5rem;
     }
 }
