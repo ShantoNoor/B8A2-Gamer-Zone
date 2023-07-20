@@ -264,8 +264,8 @@ body {
     justify-content: center;
     gap:10px;
     border-radius: 50px;
-    background: #FFF;
-    padding: 10px 20px;
+    background-color: #FFF;
+    padding: 0.625rem 1.25rem;
     transition: all .3s;
     cursor: pointer;
     border: 1px solid transparent;
@@ -308,37 +308,37 @@ body {
 
 .foot-navs {
     display: flex;
-    gap:60px;
+    gap:3.75rem;
 }
 
 .foot-nav {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .foot-icons {
     display: flex;
-    gap: 40px;
-    margin-bottom: 20px;
+    gap: 2.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .foot-more {
     display: flex;
-    gap:60px;
+    gap:3.75rem;
 }
 
 .foot-more .foot-nav{
     color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 .foot-end {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     margin-top: 1.75rem;
 }
@@ -440,4 +440,22 @@ body {
     .play-games-subtitle {
         margin: 3rem 0;
     }
+
+    /* profile-buttons */
+    .buttons-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .buttons-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        column-gap: 20px;
+        row-gap: 60px;
+    }
+
+    .buttons-img {
+        width: 50%;
+    }
+
+    
 }
