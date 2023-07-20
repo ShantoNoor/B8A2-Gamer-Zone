@@ -343,6 +343,10 @@ body {
     margin-top: 1.75rem;
 }
 
+.foot-end-1, .foot-end-2{
+    display: inline;
+}
+
 
 @media screen and (max-width: 425px) {
     html {
@@ -457,5 +461,34 @@ body {
         width: 50%;
     }
 
-    
+    /* footer */
+    .footer .header-logo {
+        margin-bottom: 0; /* reset margin */
+    }
+
+    .foot-navs, .foot-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 25px;
+        justify-items: center;
+    }
+
+    .foot-icons{
+        row-gap: 50px;
+    }
+
+    .foot-more {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 25px;
+        justify-items: center;
+    }
+
+    .foot-end {
+        margin-top: 5rem;
+    }
+
+    .foot-end-1, .foot-end-2{
+        display: block;
+    }
 }
