@@ -446,8 +446,45 @@ body {
     display: inline;
 }
 
+@media screen and (max-width: 1440px) {
+    html {
+        font-size: 75%;
+    }
 
-@media screen and (max-width: 425px) {
+    /* banner */
+    .banner-img {
+        width: 50%;
+    }
+
+    .title, .subtitle {
+        text-align: center;
+    }
+
+    /* online */
+    .img-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* play games */
+    .play-games {
+        flex-direction: column-reverse;
+        position: relative;
+        margin: 20px;
+        gap: 20px;
+        padding-bottom: 15rem;
+    }
+
+    .play-games-img-1 {
+        width: 70%;
+    }
+    .play-games-img-2 {
+        width: 40%;
+        bottom: -25%;
+        right: 3%;
+    }
+}
+
+@media screen and (max-width: 600px) {
     html {
         font-size: 55%;
     }
